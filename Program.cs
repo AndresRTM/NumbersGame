@@ -1,12 +1,12 @@
-﻿namespace NumbersGame
+﻿//Andrés Llano Duran NET25
+namespace NumbersGame
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Game rg = new Game(1, 2, 5);
-            rg.RunGame();
-
+            Game rg = new Game(1, 20, 5);
+            
         }
     }
 }

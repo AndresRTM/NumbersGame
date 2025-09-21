@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Andrés Llano Duran NET25
+using System;
 
 
 namespace NumbersGame
@@ -14,7 +15,7 @@ namespace NumbersGame
             this.firstIntervalNumber = first;
             this.secondIntervalNumber = second;
             this.rounds = rounds;
-
+            RunGame();
         }
 
         public void RunGame()
@@ -42,7 +43,7 @@ namespace NumbersGame
                     Console.WriteLine("Tyvärr, du gissade för högt!");
                 }
 
-                if (i == rounds)
+                if (counter == rounds)
                 {
                     Console.WriteLine("Tyvärr, du lyckades inte gissa talet på fem försök!");
                 }
@@ -56,6 +57,4 @@ namespace NumbersGame
             return guessingNumber;
         }
     }
-
-
 }
